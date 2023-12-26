@@ -189,16 +189,6 @@
    width: 85%;
 }
 }
-@keyframes advance{
-   100%{
-      width: 60%;
-   }
-   }
-   @keyframes sql{
-      100%{
-         width: 90%;
-      }
-      }
       @keyframes html{
          100%{
             width: 90%;
