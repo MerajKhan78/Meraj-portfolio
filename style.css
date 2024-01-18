@@ -125,14 +125,6 @@
    background: #ff451b;
    animation: core 1s linear forwards;
   }
-  .advance{
-   background: #ff451b;
-   animation: advance 1s linear forwards;
-  }
-  .sql{
-   background: #ff451b;
-   animation: sql 1s linear forwards;
-  }
   .html{
    background: #ff451b;
    animation: html 1s linear forwards;
@@ -145,25 +137,16 @@
    background: #ff451b;
    animation: boot 1s linear forwards;
   }
-  .js{
+  .Csharp{
    background: #ff451b;
-   animation: js 1s linear forwards;
+   animation: Csharp 1s linear forwards;
   }
-  .rj{
+  .EFC{
    background: #ff451b;
-   animation: rj 1s linear forwards;
+   animation: EFC 1s linear forwards;
   }
-  .jq{
-   background: #ff451b;
-   animation: jq 1s linear forwards;
-  }
+  
 .core span{
-   border: 2px solid black;
-}
-.advance span{
-   border: 2px solid black;
-}
-.sql span{
    border: 2px solid black;
 }
 .html span{
@@ -175,18 +158,16 @@
 .boot span{
    border: 2px solid black;
 }
-.js span{
+.Csharp span{
    border: 2px solid black;
 }
-.rj span{
+.EFC span{
    border: 2px solid black;
 }
-.jq span{
-   border: 2px solid black;
-}
+
 @keyframes core{
 100%{
-   width: 85%;
+   width: 90%;
 }
 }
       @keyframes html{
@@ -201,24 +182,20 @@
             }
             @keyframes boot{
                100%{
-                  width: 90%;
+                  width: 95%;
                }
                }
-               @keyframes js{
+               @keyframes Csharp{
                   100%{
-                     width: 80%;
+                     width: 75%;
                   }
                   }
-                  @keyframes rj{
+                  @keyframes EFC{
                      100%{
-                        width: 80%;
+                        width: 70%;
                      }
                      }
-                     @keyframes jq{
-                        100%{
-                           width: 70%;
-                        }
-                        }
+               
                         .theme-shadow{
                            box-shadow:  0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                         }
