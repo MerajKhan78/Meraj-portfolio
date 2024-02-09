@@ -145,6 +145,19 @@
    background: #ff451b;
    animation: EFC 1s linear forwards;
   }
+  .RWA{
+   background: #ff451b;
+   animation: RWA 1s linear forwards;
+  }
+  .Js{
+   background: #ff451b;
+   animation: Js 1s linear forwards;
+  }
+  .AR{
+   background: #ff451b;
+   animation: AR 1s linear forwards;
+  }
+
   
 .core span{
    border: 2px solid black;
@@ -162,6 +175,15 @@
    border: 2px solid black;
 }
 .EFC span{
+   border: 2px solid black;
+}
+.RWA span{
+   border: 2px solid black;
+}
+.Js span{
+   border: 2px solid black;
+}
+.AR span{
    border: 2px solid black;
 }
 
@@ -192,9 +214,24 @@
                   }
                   @keyframes EFC{
                      100%{
-                        width: 70%;
+                        width: 80%;
                      }
                      }
+                     @keyframes RWA{
+                        100%{
+                           width: 80%;
+                        }
+                        }
+                        @keyframes Js{
+                           100%{
+                              width: 80%;
+                           }
+                           }
+                           @keyframes AR{
+                              100%{
+                                 width: 80%;
+                              }
+                              }
                
                         .theme-shadow{
                            box-shadow:  0 4px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
